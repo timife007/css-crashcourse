@@ -160,6 +160,10 @@ a:visited{
 	border: 1px solid #000;
 	margin-top: 30px;
 	position: relative;
+	background-image: url('../images/download.jpeg');
+	background-repeat: no-repeat;
+	/* background-position: center top; */
+	background-position: 100% 100%;
 }
 .p-box h1{
 	top: 100px;
@@ -173,6 +177,22 @@ a:visited{
 	position:absolute
 }
 
+.fix-me{
+	position: fixed;
+	top: 400px;
+}
+
+.my-list li:last-child{
+	background-color: red;
+}
+
+.my-list li:nth-child(5){
+	background: yellow;
+}
+
+.my-list li:nth-child(even){
+	background: grey;
+}
 
 
 
